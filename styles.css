@@ -1,0 +1,81 @@
+#socialDiv a i, #social a i{
+    color:aliceblue;
+}#socialDiv span{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#socialDiv{
+    background-color: #316DC3;
+}
+#navbar a img{
+    width:200px;
+}
+#activehome{
+    background-color: #316DC3;
+}
+.dropdown:hover>.dropdown-menu  {
+    display: block;
+    right:auto;
+    /* margin-top: 1rem; */
+  }
+  
+ .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+#navbar ul li a{
+    border-radius: 5rem;
+}  
+#navbar ul li a:hover,#navbar ul li button:hover{
+    border-radius: 5rem;
+    background-color:#316DC3;
+    color: white;
+} 
+#slider{
+    width:100%;
+    height:30rem;
+}
+.carousel-inner img {
+    width:100%;
+    height:30rem;
+}
+#sliderPrev{
+    border-radius: 15px;
+    padding: 1rem;
+}
+#sliderNext{
+    border-radius: 15px;
+    padding: 1rem;
+}
+#introduction h2,#aboutCards h2,#news h3, #imageGallery h2{
+    color: #316DC3;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#introduction p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+#countDiv i, #countDiv img,#countDiv h1,#countDiv h5{
+    color: aliceblue;
+}
+#countDiv>div{
+    padding:4rem;
+    background-color:#316DC3;
+}
+#countDiv h1{
+    padding-top: 2rem;
+}
+#countDiv h5>span{
+color:#5cb85c ;
+}
+#imageGallery a img:hover{
+    transform:scale(1.1);
+}
+#details ul, #links ul{
+    list-style-type: none;
+}
+#links ul li a {
+    color: aliceblue;
+}
+
